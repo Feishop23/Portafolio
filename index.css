@@ -1,0 +1,2041 @@
+
+   
+       
+/* /////////////////////////////////////////////////////////////////////////////////////////////// */
+@media screen and (max-width: 2929px) {
+
+
+    :root {
+    --gradianteAmarilloNaranja: linear-gradient(to left, #000000 0%, #808080 250%);
+    --colorVerde:#9DD9D2; 
+    --colorClaro: #FFF8F0;
+    --colorOscuro: #000000;
+    --colorMorado: #392F5A;
+    --tipoGrafia: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --filtroNaranja: invert(93%) sepia(78%) saturate(6548%) hue-rotate(157deg) brightness(105%) contrast(106%); 
+    --filtroAmarillo: brightness(0) saturate(100%) invert(95%) sepia(12%) saturate(859%) hue-rotate(106deg) brightness(90%) contrast(88%);
+    }
+           
+
+    *{
+    margin: 0;
+    padding: 0;
+    }
+
+html{
+
+    scroll-behavior: smooth;
+    
+}
+
+.gif{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    z-index: 4;
+    box-shadow: 0px -10px 25px 3px #000;
+     background-image:  var(--gradianteAmarilloNaranja);
+}
+body{
+            
+    z-index: 1;
+    background-color:#00000000
+}
+.titulo{
+        color: var(--colorClaro);
+    position: absolute;
+    left: 21%;
+    top: 110px;
+    font-size: 30px;
+    z-index: 4;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0px;
+    transition: 0.5s ease-in-out;
+}
+
+
+.foto img{
+    position: absolute;
+    width: 600px;
+    border-radius: 100%;
+    top: 420px;
+    left: 18%;
+    z-index: 1;
+    transition: 0.5s ease-in-out;
+}
+.foto img:hover{
+    transition: 0.5s ease-in-out;
+    transform: scale(1.05); 
+}
+.vacio1{
+    position: fixed;
+    backdrop-filter: blur(10px);
+    background-color: rgba(202, 202, 202, 0);
+    height: 85px;
+    width: 100%;
+    z-index: 3;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.19) ;
+        /* /////////////////////////////////////////////////////////////////////// */
+}
+
+    /* //////////////////////////////////////////////////////////////////////////// */
+
+   .slider{
+    left: 54%;
+    top: 80px;
+    position: absolute;
+    width: 600px;
+    height: 80px;
+    margin: 40px auto 0;
+    overflow: hidden;
+    background-color:  rgba(0, 255, 255, 0);
+    z-index: 4;
+   }
+
+   .slider ul{
+    padding: 0;
+    width: 500%;
+    animation: Slid 5s infinite  ease-out;
+   }
+
+   .slider li{
+    color: var(--colorVerde);
+    
+    list-style: none;
+    width: 30%;
+    position: relative;
+    left: 40px;
+   }
+
+   .slider a {
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 20%;
+    font-weight: 600;
+    font-size: 80px;
+   }
+
+   .Gamer{
+    position: absolute;
+    left: 90px;   
+   }
+
+   @keyframes Slid {
+    0% {margin-top: -2.5%;}
+    20% {margin-top:-2.5%;}
+
+    25% {margin-top: -17.5%;}
+    45% {margin-top: -17.5%;}
+
+    50% {margin-top: -33%;}
+    70% {margin-top: -33%;}
+
+    75% {margin-top: -48%;}
+    95% {margin-top: -48%;}
+   }
+    /* ////////////////////////////////////////////////////////// */
+    
+       
+    .icono1 img{
+    position: fixed;
+    width: 72px;
+    top: 10px;
+    left: 12.7%;
+    z-index:4;
+    transition: 0.5s ease;
+    filter: var(--filtroAmarillo);
+       
+    }
+
+    .icono1 img:hover{
+    transition: 0.5s ease;
+    transform: scale(1.15);
+    filter: var(--filtroNaranja);
+    }
+    .icono2 img{
+    filter: var(--filtroAmarillo);
+    position: fixed;
+    width: 70px; /*este va menos 10px que icono3 */
+    top: 10px;
+    left: 77.4%;
+    z-index:4;
+    transition: 0.5s ease;
+    }
+    .icono2 img:hover{
+    transform: scale(1.15);
+    transition: 0.5s ease;
+    filter: var(--filtroNaranja);
+    }
+    
+    .icono3 img{
+    filter: var(--filtroAmarillo);
+    position: fixed;
+    width: 60px;
+    top: 14px;
+    left: 82.4%;
+    z-index:4;
+    transition: 0.5s ease;
+    }
+    .icono3 img:hover{
+    transform: scale(1.15);
+    transition: 0.5s ease;
+    filter: var(--filtroNaranja);
+    }
+
+    .icono4 img{
+    filter: var(--filtroAmarillo);
+    position: fixed;
+    width: 80px;
+    top: 8px;
+    left: 86.8%;
+    z-index:4;
+    transition: 0.5s ease;
+    }
+    .icono4 img:hover{
+    transform: scale(1.15);
+    transition: 0.5s ease;
+    filter: var(--filtroNaranja);
+    }
+
+    .icono5 img{
+    filter: var(--filtroAmarillo);
+    position: fixed;
+    width: 73px;
+    top: 8px;
+    margin-left: 0px;
+    z-index:4;
+    left: 91.5%;
+    transition:  0.5s ease;
+    }
+    .icono5 img:hover{
+    transform: scale(1.15);
+    transition: 0.5s ease;
+    filter: var(--filtroNaranja);
+    }
+
+    .descripcion{
+    position: relative;
+    top: 485px;
+    width: 900px;
+    height: 140px;
+    text-align: center;
+    left: 50%;
+    color: var(--colorOscuro);
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    }
+    
+    .linea{
+    position: relative;
+    background-color: var(--colorVerde);
+    border-radius: 10px;
+    left: 46%;
+    width: 12px;
+    display: inline-block;
+    top: 280px;
+    margin-left:  0px;
+    height: 450px;
+    }
+    
+    .especialidades{
+    color: var(--colorVerde);
+    font-size: 70px;
+    position: absolute;
+    top: 140.2vh;
+    left: 32%;
+    z-index: 2;
+    transition: .5s ease-in-out;
+    }
+    .especialidades:hover{
+        transition: .5s ease-in-out;
+        color: var(--colorOscuro);
+    }
+
+    .contenedor-Especies {
+    position:absolute;
+    height: 40%;
+    width: 80%;
+    bottom: -95%;
+    margin-left: 10%;
+    margin-right: 10%; 
+    }
+    
+    .contenedor-Especies ul li {
+    display: inline;
+    position: relative;
+    background-color: #FFF8F0;
+    margin: 10%;
+    right: 17.3%;
+    margin-left:30%;
+    margin-right: 0%;
+            
+    }
+
+    .especies1 img{
+    position: absolute;
+    top: 0;
+    width: 300px;
+    height: 300px;
+    }
+
+    .especies2 img{
+    position: absolute;
+    left: -20px;
+    top: 0;
+    width: 300px;
+    height: 300px;       
+    }
+
+    .especies3 img{
+    position: absolute;
+    top: 0;
+    width: 300px;
+    height: 300px;          
+    }
+    
+    
+    .nombresEspecies{
+        position: absolute;
+        width: 80%;
+        top: 170%;
+        left: 10%;
+    }
+    .nombresEspecies li {
+    font-size: 60px;
+    left: 80px;
+    display:inline-block;
+    position: relative;
+    top: 180px;
+    margin-left: 230px;
+    margin-right: 188px;
+    }
+   .nombresEspecies a{
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--colorOscuro);
+    font-size: 70px;
+    font-family: var(--tipoGrafia);
+    transition: .5s ease-in-out;
+   }
+         
+   .copy{
+       position: absolute;
+       
+       
+       top: 70px;
+       font-size: 30px;
+       font-family: var(--tipoGrafia);
+       font-weight: 600;
+   }
+   .cuadroCopy{
+       
+       width: 250px;
+       height: 130px;
+       left: 45%;
+       position: absolute;
+       top: 200vh;
+   }
+        }
+
+
+            /* /////////////////////////////////////////////////////////////////////////////////////// */
+@media screen and (max-width: 2540px) {
+
+
+    :root {
+    --gradianteAmarilloNaranja: linear-gradient(to left, #000000 0%, #808080 250%);
+    --colorVerde:#9DD9D2; 
+    --colorVerdeClaro:#8cfcef;
+    --colorClaro: #FFF8F0;
+    --colorOscuro: #000000;
+    --colorMorado: #392F5A;
+    --tipoGrafia: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --filtroNaranja: invert(93%) sepia(78%) saturate(6548%) hue-rotate(157deg) brightness(105%) contrast(106%); 
+    --filtroAmarillo: brightness(0) saturate(100%) invert(95%) sepia(12%) saturate(859%) hue-rotate(106deg) brightness(90%) contrast(88%);
+    }
+           
+
+    *{
+    margin: 0;
+    padding: 0;
+    }
+
+html{
+
+    scroll-behavior: smooth;
+    
+}
+
+.gif{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    z-index: 4;
+    box-shadow: 0px -10px 25px 3px #000;
+     background-image:  var(--gradianteAmarilloNaranja);
+}
+body{
+            
+    z-index: 1;
+    background-color:#00000000
+}
+.titulo{
+        color: var(--colorClaro);
+    position: absolute;
+    left: 18%;
+    top: 110px;
+    font-size: 30px;
+    z-index: 4;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0px;
+    transition: 0.5s ease-in-out;
+}
+
+
+.foto img{
+    position: absolute;
+    width: 400px;
+    border-radius: 100%;
+    top: 500px;
+    left: 18%;
+    z-index: 1;
+    transition: 0.5s ease-in-out;
+}
+.foto img:hover{
+    transition: 0.5s ease-in-out;
+    transform: scale(1.05); 
+}
+.vacio1{
+    position: fixed;
+    backdrop-filter: blur(10px);
+    background-color: rgba(202, 202, 202, 0);
+    height: 85px;
+    width: 100%;
+    z-index: 3;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.19) ;
+        /* /////////////////////////////////////////////////////////////////////// */
+}
+
+    /* //////////////////////////////////////////////////////////////////////////// */
+
+   .slider{
+    left: 54%;
+    top: 80px;
+    position: absolute;
+    width: 600px;
+    height: 80px;
+    margin: 40px auto 0;
+    overflow: hidden;
+    background-color:  rgba(0, 255, 255, 0);
+    z-index: 4;
+   }
+
+   .slider ul{
+    padding: 0;
+    width: 500%;
+    animation: Slid 5s infinite  ease-out;
+   }
+
+   .slider li{
+    color: var(--colorVerde);
+    
+    list-style: none;
+    width: 30%;
+    position: relative;
+    left: 40px;
+   }
+
+   .slider a {
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 20%;
+    font-weight: 600;
+    font-size: 80px;
+   }
+
+   .Gamer{
+    position: absolute;
+    left: 90px;   
+   }
+
+   @keyframes Slid {
+    0% {margin-top: -2.5%;}
+    20% {margin-top:-2.5%;}
+
+    25% {margin-top: -17.5%;}
+    45% {margin-top: -17.5%;}
+
+    50% {margin-top: -33%;}
+    70% {margin-top: -33%;}
+
+    75% {margin-top: -48%;}
+    95% {margin-top: -48%;}
+   }
+    /* ////////////////////////////////////////////////////////// */
+    
+       
+    .icono1 img{
+    position: fixed;
+    width: 72px;
+    top: 10px;
+    left: 12.7%;
+    z-index:4;
+    transition: 0.5s ease;
+    filter: var(--filtroAmarillo);
+       
+    }
+
+    .icono1 img:hover{
+    transition: 0.5s ease;
+    transform: scale(1.15);
+    filter: var(--filtroNaranja);
+    }
+    .icono2 img{
+    filter: var(--filtroAmarillo);
+    position: fixed;
+    width: 70px; /*este va menos 10px que icono3 */
+    top: 10px;
+    left: 77.4%;
+    z-index:4;
+    transition: 0.5s ease;
+    }
+    .icono2 img:hover{
+    transform: scale(1.15);
+    transition: 0.5s ease;
+    filter: var(--filtroNaranja);
+    }
+    
+    .icono3 img{
+    filter: var(--filtroAmarillo);
+    position: fixed;
+    width: 60px;
+    top: 14px;
+    left: 82.4%;
+    z-index:4;
+    transition: 0.5s ease;
+    }
+    .icono3 img:hover{
+    transform: scale(1.15);
+    transition: 0.5s ease;
+    filter: var(--filtroNaranja);
+    }
+
+    .icono4 img{
+    filter: var(--filtroAmarillo);
+    position: fixed;
+    width: 80px;
+    top: 8px;
+    left: 86.8%;
+    z-index:4;
+    transition: 0.5s ease;
+    }
+    .icono4 img:hover{
+    transform: scale(1.15);
+    transition: 0.5s ease;
+    filter: var(--filtroNaranja);
+    }
+
+    .icono5 img{
+    filter: var(--filtroAmarillo);
+    position: fixed;
+    width: 73px;
+    top: 8px;
+    margin-left: 0px;
+    z-index:4;
+    left: 91.5%;
+    transition:  0.5s ease;
+    }
+    .icono5 img:hover{
+    transform: scale(1.15);
+    transition: 0.5s ease;
+    filter: var(--filtroNaranja);
+    }
+
+    .descripcion{
+    position: relative;
+    top: 550px;
+    width: 900px;
+    height: 140px;
+    text-align: center;
+    left: 43%;
+    color: var(--colorOscuro);
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    }
+    
+    .linea{
+    position: relative;
+    background-color: var(--colorVerde);
+    border-radius: 10px;
+    left: 40%;
+    width: 10px;
+    display: inline-block;
+    top: 280px;
+    margin-left:  0px;
+    height: 400px;
+    }
+    
+    .especialidades{
+    color: var(--colorVerde);
+    font-size: 60px;
+    position: absolute;
+    top: 190.2vh;
+    left: 30%;
+    z-index: 2;
+    font-family: var(--tipoGrafia);
+    transition: .5s ease-in-out;
+    }
+    .especialidades:hover{
+        transition: .5s ease-in-out;
+        color: var(--colorVerdeClaro);
+    }
+
+    .contenedor-Especies {
+    position:absolute;
+    height: 40%;
+    width: 80%;
+    bottom: -165%;
+    margin-left: 10%;
+    margin-right: 10%; 
+    }
+    
+    .contenedor-Especies ul li {
+    display: inline;
+    position: relative;
+    background-color: #FFF8F0;
+    margin: 10%;
+    right: 17.3%;
+    margin-left:30%;
+    margin-right: 0%;
+            
+    }
+
+    .especies1 img{
+    position: absolute;
+    top: 0;
+    width: 160px;
+    height: 160px;
+    }
+
+    .especies2 img{
+    position: absolute;
+    left: -20px;
+    top: 0;
+    width: 160px;
+    height: 160px;       
+    }
+
+    .especies3 img{
+    position: absolute;
+    top: 0;
+    width: 160px;
+    height: 160px;          
+    }
+    
+    
+    .nombresEspecies{
+        position: absolute;
+        width: 90%;
+        top: 220%;
+        left: 8.3%;
+    }
+    .nombresEspecies li {
+    
+    left: 0px;
+    display:inline-block;
+    position: relative;
+    top: 180px;
+    margin-left: 290px;
+    margin-right: 14px;
+    }
+   .nombresEspecies a{
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--colorOscuro);
+    font-size: 40px;
+    font-family: var(--tipoGrafia);
+   }
+   
+   
+         
+   .copy{
+       position: absolute;
+       top: 100px;
+       font-size: 10px;
+       font-family: var(--tipoGrafia);
+       font-weight: 600;
+   }
+   .cuadroCopy{
+       
+       width: 250px;
+       height: 130px;
+       left: 45%;
+       position: absolute;
+       top: 259vh;
+   }
+        }
+
+        @media (max-width: 1440px) {
+
+
+            :root {
+            --gradianteAmarilloNaranja: linear-gradient(to left, #000000 0%, #808080 250%);
+            --colorVerde:#9DD9D2; 
+            --colorVerdeClaro:#8cfcef;
+            --colorClaro: #FFF8F0;
+            --colorOscuro: #000000;
+            --colorMorado: #392F5A;
+            --tipoGrafia: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            --filtroNaranja: invert(93%) sepia(78%) saturate(6548%) hue-rotate(157deg) brightness(105%) contrast(106%); 
+            --filtroAmarillo: brightness(0) saturate(100%) invert(95%) sepia(12%) saturate(859%) hue-rotate(106deg) brightness(90%) contrast(88%);
+            }
+                   
+        
+            *{
+            margin: 0;
+            padding: 0;
+            }
+        
+        html{
+        
+            scroll-behavior: smooth;
+            
+        }
+        
+        .gif{
+            position: absolute;
+            width: 100%;
+            height: 280px;
+            z-index: 4;
+            box-shadow: 0px -10px 25px 3px #000;
+             background-image:  var(--gradianteAmarilloNaranja);
+        }
+        body{
+                    
+            z-index: 1;
+            background-color:#00000000
+        }
+        .titulo{
+                color: var(--colorClaro);
+            position: absolute;
+            left: 28.5%;
+            top: 100px;
+            font-size: 20px;
+            z-index: 4;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            letter-spacing: 0px;
+            transition: 0.5s ease-in-out;
+        }
+        
+        
+        .foto img{
+            position: absolute;
+            width: 250px;
+            border-radius: 100%;
+            top: 360px;
+            left: 42%;
+            z-index: 1;
+            transition: 0.5s ease-in-out;
+        }
+        .foto img:hover{
+            transition: 0.5s ease-in-out;
+            transform: scale(1.05); 
+        }
+        .vacio1{
+            position: fixed;
+            backdrop-filter: blur(10px);
+            background-color: rgba(202, 202, 202, 0);
+            height: 60px;
+            width: 100%;
+            z-index: 3;
+            box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.19) ;
+                /* /////////////////////////////////////////////////////////////////////// */
+        }
+        
+            /* //////////////////////////////////////////////////////////////////////////// */
+        
+           .slider{
+            left: 28%;
+            top: 129px;
+            position: absolute;
+            width: 600px;
+            height: 78px;
+            margin: 40px auto 0;
+            overflow: hidden;
+            z-index: 4;
+           }
+        
+           .slider ul{
+            padding: 0;
+            width: 500%;
+            animation: Slid 5s infinite  ease-out;
+           }
+        
+           .slider li{
+            color: var(--colorVerde);
+            text-align: center;
+            list-style: none;
+            width: 30%;
+            top: 4px;
+            position: relative;
+            left: -160px;
+           }
+        
+           .slider a {
+            
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            width: 20%;
+            font-weight: 600;
+            font-size: 80px;
+           }
+        
+           .Gamer{
+            position: absolute;
+            left: 90px;   
+           }
+        
+           @keyframes Slid {
+            0% {margin-top: -2.5%;}
+            20% {margin-top:-2.5%;}
+        
+            25% {margin-top: -17.5%;}
+            45% {margin-top: -17.5%;}
+        
+            50% {margin-top: -33%;}
+            70% {margin-top: -33%;}
+        
+            75% {margin-top: -48%;}
+            95% {margin-top: -48%;}
+           }
+            /* ////////////////////////////////////////////////////////// */
+            
+               
+            .icono1 img{
+            position: fixed;
+            width: 32px;
+            top: 10px;
+            left: 13.7%;
+            z-index:4;
+            
+            transition: 0.5s ease;
+            filter: var(--filtroAmarillo);
+               
+            }
+        
+            .icono1 img:hover{
+            transition: 0.5s ease;
+            transform: scale(1.15);
+            filter: var(--filtroNaranja);
+            }
+            .icono2 img{
+            filter: var(--filtroAmarillo);
+            position: fixed;
+            width: 34px; /*este va menos 10px que icono3 */
+            top: 10px;
+            left: 77.4%;
+            z-index:4;
+            margin-left:10px ;
+            transition: 0.5s ease;
+            }
+            .icono2 img:hover{
+            transform: scale(1.15);
+            transition: 0.5s ease;
+            filter: var(--filtroNaranja);
+            }
+            
+            .icono3 img{
+            filter: var(--filtroAmarillo);
+            position: fixed;
+            width: 25px;
+            top: 14px;
+            left: 82.4%;
+            z-index:4;
+            margin-left: 20px;
+            transition: 0.5s ease;
+            }
+            .icono3 img:hover{
+            transform: scale(1.15);
+            transition: 0.5s ease;
+            filter: var(--filtroNaranja);
+            }
+        
+            .icono4 img{
+            filter: var(--filtroAmarillo);
+            position: fixed;
+            width: 37px;
+            top: 7px;
+            left: 86.8%;
+            z-index:4;
+            margin-left: 30px;
+            transition: 0.5s ease;
+            }
+            .icono4 img:hover{
+            transform: scale(1.15);
+            transition: 0.5s ease;
+            filter: var(--filtroNaranja);
+            }
+        
+            .icono5 img{
+            filter: var(--filtroAmarillo);
+            position: fixed;
+            width: 33px;
+            top: 10px;
+            margin-left: 40px;
+            z-index:4;
+            left: 91.5%;
+            transition:  0.5s ease;
+            }
+            .icono5 img:hover{
+            transform: scale(1.15);
+            transition: 0.5s ease;
+            filter: var(--filtroNaranja);
+            }
+        
+            .descripcion{
+            position: relative;
+            top: 570px;
+            width: 600px;
+            height: 140px;
+            text-align: center;
+            left: 28%;
+            color: var(--colorOscuro);
+            font-size: 30px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 500;
+            }
+            
+                .linea{
+                position: relative;
+                background-color: var(--colorVerde);
+                border-radius: 10px;
+                left: 25%;
+                width: 12px;
+                display: inline-block;
+                top: 423px;
+                margin-left:  0px;
+                height: 190px;
+                }
+            
+            .especialidades{
+            color: var(--colorVerde);
+            font-size: 40px;
+            position: absolute;
+            top: 170.2vh;
+            left: 30%;
+            z-index: 2;
+            font-family: var(--tipoGrafia);
+            transition: .5s ease-in-out;
+            }
+            .especialidades:hover{
+                transition: .5s ease-in-out;
+                color: var(--colorVerdeClaro);
+            }
+        
+            .contenedor-Especies {
+            position:absolute;
+            height: 40%;
+            width: 80%;
+            bottom: -135%;
+            margin-left: 11%;
+            margin-right: 10%; 
+            }
+            
+            .contenedor-Especies ul li {
+            display: inline;
+            position: relative;
+            background-color: #FFF8F0;
+            margin: 10%;
+            left: -240px;
+            margin-left:33%;
+            margin-right: 0%;
+                    
+            }
+        
+            .especies1 img{
+            position: absolute;
+            top: 0;
+            width: 200px;
+            height: 200px;
+            }
+        
+            .especies2 img{
+            position: absolute;
+            left: -0px;
+            top: 0;
+            width: 200px;
+            height: 200px;       
+            }
+        
+            .especies3 img{
+            position: absolute;
+            top: 0;
+            left: 25px;
+            width: 200px;
+            height: 200px;          
+            }
+            
+            
+            .nombresEspecies{
+                position: absolute;
+                width: 100%;
+                top: 244%;
+                left: 0px;
+            }
+            .nombresEspecies li {
+            font-size: 60px;
+            left: 13%;
+            display:inline-block;
+            position: relative;
+            top: -100px;
+            margin-left: 110px;
+            margin-right: 128px;
+            }
+           .nombresEspecies a{
+            text-decoration: none;
+            font-weight: 700;
+            color: var(--colorOscuro);
+            font-size: 40px;
+            font-family: var(--tipoGrafia);
+            transition: .5s ease-in-out;
+           }
+           
+                 
+           .copy{
+               position: absolute;
+               top: 120px;
+               font-size: 10px;
+               font-family: var(--tipoGrafia);
+               font-weight: 600;
+           }
+           .cuadroCopy{
+               
+               width: 250px;
+               height: 130px;
+               left: 50%;
+               position: absolute;
+               top: 235vh;
+           }
+                }
+    /* /////////////////////////////////////////////////////////////////////////////////////////////////// */
+                @media (max-width: 1024px) {
+
+
+                    :root {
+                    --gradianteAmarilloNaranja: linear-gradient(to left, #000000 0%, #808080 250%);
+                    --colorVerde:#9DD9D2; 
+                    --colorVerdeClaro:#8cfcef;
+                    --colorClaro: #FFF8F0;
+                    --colorOscuro: #000000;
+                    --colorMorado: #392F5A;
+                    --tipoGrafia: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    --filtroNaranja: invert(93%) sepia(78%) saturate(6548%) hue-rotate(157deg) brightness(105%) contrast(106%); 
+                    --filtroAmarillo: brightness(0) saturate(100%) invert(95%) sepia(12%) saturate(859%) hue-rotate(106deg) brightness(90%) contrast(88%);
+                    }
+                    *{
+                        margin: 0;
+                        padding: 0;
+                        }
+                    
+                    html{
+                    
+                        scroll-behavior: smooth;
+                        
+                    }
+                    
+                    .gif{
+                        position: absolute;
+                        width: 100%;
+                        height: 280px;
+                        z-index: 4;
+                        box-shadow: 0px -10px 25px 3px rgb(255, 48, 48);
+                         background-image:  var(--gradianteAmarilloNaranja);
+                    }
+                    body{
+                                
+                        z-index: 1;
+                        background-color:#00000000
+                    }
+                    .titulo{
+                            color: var(--colorClaro);
+                        position: absolute;
+                        left: 20.5%;
+                        top: 70px;
+                        font-size: 22px;
+                        z-index: 4;
+                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        letter-spacing: 0px;
+                        transition: 0.5s ease-in-out;
+                    }
+                    
+                    
+                    .foto img{
+                        position: absolute;
+                        width: 250px;
+                        border-radius: 100%;
+                        top: 320px;
+                        left: 40%;
+                        z-index: 1;
+                        transition: 0.5s ease-in-out;
+                    }
+                    .foto img:hover{
+                        transition: 0.5s ease-in-out;
+                        transform: scale(1.05); 
+                    }
+                    .vacio1{
+                        position: fixed;
+                        backdrop-filter: blur(10px);
+                        background-color: rgba(202, 202, 202, 0);
+                        height: 50px;
+                        width: 100%;
+                        z-index: 3;
+                        box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.19) ;
+                            /* /////////////////////////////////////////////////////////////////////// */
+                    }
+                    
+                        /* //////////////////////////////////////////////////////////////////////////// */
+                    
+                       .slider{
+                        left: 24%;
+                        top: 120px;
+                        position: absolute;
+                        width: 600px;
+                        height: 78px;
+                        margin: 40px auto 0;
+                        overflow: hidden;
+                        z-index: 4;
+                       }
+                    
+                       .slider ul{
+                        padding: 0;
+                        width: 500%;
+                        animation: Slid 5s infinite  ease-out;
+                       }
+                    
+                       .slider li{
+                        color: var(--colorVerde);
+                        text-align: center;
+                        list-style: none;
+                        width: 30%;
+                        top: 4px;
+                        position: relative;
+                        left: -160px;
+                       }
+                    
+                       .slider a {
+                        
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        width: 20%;
+                        font-weight: 600;
+                        font-size: 60px;
+                       }
+                    
+                       .Gamer{
+                        position: absolute;
+                        left: 90px;   
+                       }
+                    
+                       @keyframes Slid {
+                        0% {margin-top: -0.5%;}
+                        20% {margin-top:-0.5%;}
+                    
+                        25% {margin-top: -12.2%;}
+                        45% {margin-top: -12.2%;}
+                    
+                        50% {margin-top: -23.4%;}
+                        70% {margin-top: -23.4%;}
+                    
+                        75% {margin-top: -34.7%;}
+                        95% {margin-top: -34.7%;}
+                       }
+                        /* ////////////////////////////////////////////////////////// */
+                        
+                           
+                        .icono1 img{
+                        position: fixed;
+                        width: 32px;
+                        top: 10px;
+                        left: 12.7%;
+                        z-index:4;
+                        
+                        transition: 0.5s ease;
+                        filter: var(--filtroAmarillo);
+                           
+                        }
+                    
+                        .icono1 img:hover{
+                        transition: 0.5s ease;
+                        transform: scale(1.15);
+                        filter: var(--filtroNaranja);
+                        }
+                        .icono2 img{
+                        filter: var(--filtroAmarillo);
+                        position: fixed;
+                        width: 34px; /*este va menos 10px que icono3 */
+                        top: 10px;
+                        left: 77.4%;
+                        z-index:4;
+                        margin-left: 30px;
+                        transition: 0.5s ease;
+                        }
+                        .icono2 img:hover{
+                        transform: scale(1.15);
+                        transition: 0.5s ease;
+                        filter: var(--filtroNaranja);
+                        }
+                        
+                        .icono3 img{
+                        filter: var(--filtroAmarillo);
+                        position: fixed;
+                        width: 25px;
+                        top: 14px;
+                        left: 82.4%;
+                        z-index:4;
+                        margin-left: 25px;
+                        transition: 0.5s ease;
+                        }
+                        .icono3 img:hover{
+                        transform: scale(1.15);
+                        transition: 0.5s ease;
+                        filter: var(--filtroNaranja);
+                        }
+                    
+                        .icono4 img{
+                        filter: var(--filtroAmarillo);
+                        position: fixed;
+                        width: 40px;
+                        top: 7px;
+                        left: 86.8%;
+                        z-index:4;
+                        margin-left: 25px;
+                        transition: 0.5s ease;
+                        }
+                        .icono4 img:hover{
+                        transform: scale(1.15);
+                        transition: 0.5s ease;
+                        filter: var(--filtroNaranja);
+                        }
+                    
+                        .icono5 img{
+                        filter: var(--filtroAmarillo);
+                        position: fixed;
+                        width: 33px;
+                        top: 10px;
+                        margin-left: 35px;
+                        z-index:4;
+                        left: 91.5%;
+                        transition:  0.5s ease;
+                        }
+                        .icono5 img:hover{
+                        transform: scale(1.15);
+                        transition: 0.5s ease;
+                        filter: var(--filtroNaranja);
+                        }
+                    
+                        .descripcion{
+                        position: relative;
+                        top: 560px;
+                        width: 600px;
+                        height: 140px;
+                        text-align: center;
+                        left: 24%;
+                        color: var(--colorOscuro);
+                        font-size: 30px;
+                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 500;
+                        }
+                        
+                            .linea{
+                            position: relative;
+                            background-color: var(--colorVerde);
+                            border-radius: 10px;
+                            left: 20%;
+                            width: 10px;
+                            display: inline-block;
+                            top: 400px;
+                            margin-left:  0px;
+                            height: 200px;
+                            }
+                        
+                        .especialidades{
+                        color: var(--colorVerde);
+                        font-size: 40px;
+                        position: absolute;
+                        top: 156.2vh;
+                        left: 23.6%;
+                        z-index: 2;
+                        transition: .5s ease-in-out;
+                        }
+                        .especialidades:hover{
+                            transition: .5s ease-in-out;
+                            color: var(--colorOscuro);
+                        }
+                    
+                        .contenedor-Especies {
+                            position:absolute;
+                            height: 40%;
+                            width: 80%;
+                            bottom: -125%;
+                            margin-left: 10%;
+                            margin-right: 10%; 
+                            }
+                            
+                            .contenedor-Especies ul li {
+                            display: inline;
+                            position: relative;
+                            background-color: #FFF8F0;
+                            margin: 10%;
+                            right: 17.3%;
+                            margin-left:30%;
+                            margin-right: 0%;
+                                    
+                            }
+                        
+                            .especies1 img{
+                            position: absolute;
+                            top: 0;
+                            width: 120px;
+                            height: 120px;
+                            }
+                        
+                            .especies2 img{
+                            position: absolute;
+                            left: -20px;
+                            top: 0;
+                            width: 120px;
+                            height: 120px;       
+                            }
+                        
+                            .especies3 img{
+                            position: absolute;
+                            top: 0;
+                            width: 120px;
+                            height: 120px;          
+                            }
+                            
+                            
+                            .nombresEspecies{
+                                position: absolute;
+                                width: 80%;
+                                top: 170%;
+                                left: 10%;
+                            }
+                            .nombresEspecies li {
+                            
+                            left: 60px;
+                            display:inline-block;
+                            position: relative;
+                            top: 180px;
+                            
+                            }
+                           .nombresEspecies a{
+                            text-decoration: none;
+                            font-weight: 700;
+                            margin-left: 18px;
+                            margin-right: -25px;
+                            color: var(--colorOscuro);
+                            font-size: 20px;
+                            font-family: var(--tipoGrafia);
+                            transition: .5s ease-in-out;
+                           }
+                           .copy{
+                            position: absolute;
+                            
+                            
+                            top: 109px;
+                            font-size: 12px;
+                            font-family: var(--tipoGrafia);
+                            font-weight: 600;
+                        }
+                        .cuadroCopy{
+                            
+                            width: 250px;
+                            height: 130px;
+                            left: 45%;
+                            position: absolute;
+                            top: 225vh;
+                        }
+                }
+                @media (max-width: 1440px) {
+
+
+                    :root {
+                    --gradianteAmarilloNaranja: linear-gradient(to left, #000000 0%, #808080 250%);
+                    --colorVerde:#9DD9D2; 
+                    --colorVerdeClaro:#8cfcef;
+                    --colorClaro: #FFF8F0;
+                    --colorOscuro: #000000;
+                    --colorMorado: #392F5A;
+                    --tipoGrafia: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    --filtroNaranja: invert(93%) sepia(78%) saturate(6548%) hue-rotate(157deg) brightness(105%) contrast(106%); 
+                    --filtroAmarillo: brightness(0) saturate(100%) invert(95%) sepia(12%) saturate(859%) hue-rotate(106deg) brightness(90%) contrast(88%);
+                    }
+                           
+                
+                    *{
+                    margin: 0;
+                    padding: 0;
+                    }
+                
+                html{
+                
+                    scroll-behavior: smooth;
+                    
+                }
+                
+                .gif{
+                    position: absolute;
+                    width: 100%;
+                    height: 280px;
+                    z-index: 4;
+                    box-shadow: 0px -10px 25px 3px #000;
+                     background-image:  var(--gradianteAmarilloNaranja);
+                }
+                body{
+                            
+                    z-index: 1;
+                    background-color:#00000000
+                }
+                .titulo{
+                        color: var(--colorClaro);
+                    position: absolute;
+                    left: 28.5%;
+                    top: 100px;
+                    font-size: 20px;
+                    z-index: 4;
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    letter-spacing: 0px;
+                    transition: 0.5s ease-in-out;
+                }
+                
+                
+                .foto img{
+                    position: absolute;
+                    width: 250px;
+                    border-radius: 100%;
+                    top: 360px;
+                    left: 42%;
+                    z-index: 1;
+                    transition: 0.5s ease-in-out;
+                }
+                .foto img:hover{
+                    transition: 0.5s ease-in-out;
+                    transform: scale(1.05); 
+                }
+                .vacio1{
+                    position: fixed;
+                    backdrop-filter: blur(10px);
+                    background-color: rgba(202, 202, 202, 0);
+                    height: 60px;
+                    width: 100%;
+                    z-index: 3;
+                    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.19) ;
+                        /* /////////////////////////////////////////////////////////////////////// */
+                }
+                
+                    /* //////////////////////////////////////////////////////////////////////////// */
+                
+                   .slider{
+                    left: 28%;
+                    top: 129px;
+                    position: absolute;
+                    width: 600px;
+                    height: 78px;
+                    margin: 40px auto 0;
+                    overflow: hidden;
+                    z-index: 4;
+                   }
+                
+                   .slider ul{
+                    padding: 0;
+                    width: 500%;
+                    animation: Slid 5s infinite  ease-out;
+                   }
+                
+                   .slider li{
+                    color: var(--colorVerde);
+                    text-align: center;
+                    list-style: none;
+                    width: 30%;
+                    top: 4px;
+                    position: relative;
+                    left: -160px;
+                   }
+                
+                   .slider a {
+                    
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    width: 20%;
+                    font-weight: 600;
+                    font-size: 80px;
+                   }
+                
+                   .Gamer{
+                    position: absolute;
+                    left: 90px;   
+                   }
+                
+                   @keyframes Slid {
+                    0% {margin-top: -2.5%;}
+                    20% {margin-top:-2.5%;}
+                
+                    25% {margin-top: -17.5%;}
+                    45% {margin-top: -17.5%;}
+                
+                    50% {margin-top: -33%;}
+                    70% {margin-top: -33%;}
+                
+                    75% {margin-top: -48%;}
+                    95% {margin-top: -48%;}
+                   }
+                    /* ////////////////////////////////////////////////////////// */
+                    
+                       
+                    .icono1 img{
+                    position: fixed;
+                    width: 32px;
+                    top: 10px;
+                    left: 13.7%;
+                    z-index:4;
+                    
+                    transition: 0.5s ease;
+                    filter: var(--filtroAmarillo);
+                       
+                    }
+                
+                    .icono1 img:hover{
+                    transition: 0.5s ease;
+                    transform: scale(1.15);
+                    filter: var(--filtroNaranja);
+                    }
+                    .icono2 img{
+                    filter: var(--filtroAmarillo);
+                    position: fixed;
+                    width: 34px; /*este va menos 10px que icono3 */
+                    top: 10px;
+                    left: 77.4%;
+                    z-index:4;
+                    margin-left:10px ;
+                    transition: 0.5s ease;
+                    }
+                    .icono2 img:hover{
+                    transform: scale(1.15);
+                    transition: 0.5s ease;
+                    filter: var(--filtroNaranja);
+                    }
+                    
+                    .icono3 img{
+                    filter: var(--filtroAmarillo);
+                    position: fixed;
+                    width: 25px;
+                    top: 14px;
+                    left: 82.4%;
+                    z-index:4;
+                    margin-left: 20px;
+                    transition: 0.5s ease;
+                    }
+                    .icono3 img:hover{
+                    transform: scale(1.15);
+                    transition: 0.5s ease;
+                    filter: var(--filtroNaranja);
+                    }
+                
+                    .icono4 img{
+                    filter: var(--filtroAmarillo);
+                    position: fixed;
+                    width: 37px;
+                    top: 7px;
+                    left: 86.8%;
+                    z-index:4;
+                    margin-left: 30px;
+                    transition: 0.5s ease;
+                    }
+                    .icono4 img:hover{
+                    transform: scale(1.15);
+                    transition: 0.5s ease;
+                    filter: var(--filtroNaranja);
+                    }
+                
+                    .icono5 img{
+                    filter: var(--filtroAmarillo);
+                    position: fixed;
+                    width: 33px;
+                    top: 10px;
+                    margin-left: 40px;
+                    z-index:4;
+                    left: 91.5%;
+                    transition:  0.5s ease;
+                    }
+                    .icono5 img:hover{
+                    transform: scale(1.15);
+                    transition: 0.5s ease;
+                    filter: var(--filtroNaranja);
+                    }
+                
+                    .descripcion{
+                    position: relative;
+                    top: 570px;
+                    width: 600px;
+                    height: 140px;
+                    text-align: center;
+                    left: 28%;
+                    color: var(--colorOscuro);
+                    font-size: 30px;
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 500;
+                    }
+                    
+                        .linea{
+                        position: relative;
+                        background-color: var(--colorVerde);
+                        border-radius: 10px;
+                        left: 25%;
+                        width: 12px;
+                        display: inline-block;
+                        top: 423px;
+                        margin-left:  0px;
+                        height: 190px;
+                        }
+                    
+                    .especialidades{
+                    color: var(--colorVerde);
+                    font-size: 40px;
+                    position: absolute;
+                    top: 170.2vh;
+                    left: 30%;
+                    z-index: 2;
+                    font-family: var(--tipoGrafia);
+                    transition: .5s ease-in-out;
+                    }
+                    .especialidades:hover{
+                        transition: .5s ease-in-out;
+                        color: var(--colorVerdeClaro);
+                    }
+                
+                    .contenedor-Especies {
+                    position:absolute;
+                    height: 40%;
+                    width: 80%;
+                    bottom: -135%;
+                    margin-left: 11%;
+                    margin-right: 10%; 
+                    }
+                    
+                    .contenedor-Especies ul li {
+                    display: inline;
+                    position: relative;
+                    background-color: #FFF8F0;
+                    margin: 10%;
+                    left: -240px;
+                    margin-left:33%;
+                    margin-right: 0%;
+                            
+                    }
+                
+                    .especies1 img{
+                    position: absolute;
+                    top: 0;
+                    width: 200px;
+                    height: 200px;
+                    }
+                
+                    .especies2 img{
+                    position: absolute;
+                    left: -0px;
+                    top: 0;
+                    width: 200px;
+                    height: 200px;       
+                    }
+                
+                    .especies3 img{
+                    position: absolute;
+                    top: 0;
+                    left: 25px;
+                    width: 200px;
+                    height: 200px;          
+                    }
+                    
+                    
+                    .nombresEspecies{
+                        position: absolute;
+                        width: 100%;
+                        top: 244%;
+                        left: 0px;
+                    }
+                    .nombresEspecies li {
+                    font-size: 60px;
+                    left: 13%;
+                    display:inline-block;
+                    position: relative;
+                    top: -100px;
+                    margin-left: 110px;
+                    margin-right: 128px;
+                    }
+                   .nombresEspecies a{
+                    text-decoration: none;
+                    font-weight: 700;
+                    color: var(--colorOscuro);
+                    font-size: 40px;
+                    font-family: var(--tipoGrafia);
+                    transition: .5s ease-in-out;
+                   }
+                   
+                         
+                   .copy{
+                       position: absolute;
+                       top: 120px;
+                       font-size: 10px;
+                       font-family: var(--tipoGrafia);
+                       font-weight: 600;
+                   }
+                   .cuadroCopy{
+                       
+                       width: 250px;
+                       height: 130px;
+                       left: 50%;
+                       position: absolute;
+                       top: 235vh;
+                   }
+                        }
+            /* /////////////////////////////////////////////////////////////////////////////////////////////////// */
+                        @media (max-width: 320px) {
+        
+        
+                            :root {
+                            --gradianteAmarilloNaranja: linear-gradient(to left, #000000 0%, #808080 250%);
+                            --colorVerde:#9DD9D2; 
+                            --colorVerdeClaro:#8cfcef;
+                            --colorClaro: #FFF8F0;
+                            --colorOscuro: #000000;
+                            --colorMorado: #392F5A;
+                            --tipoGrafia: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            --filtroNaranja: invert(93%) sepia(78%) saturate(6548%) hue-rotate(157deg) brightness(105%) contrast(106%); 
+                            --filtroAmarillo: brightness(0) saturate(100%) invert(95%) sepia(12%) saturate(859%) hue-rotate(106deg) brightness(90%) contrast(88%);
+                            }
+                            *{
+                                margin: 0;
+                                padding: 0;
+                                }
+                            
+                            html{
+                            
+                                scroll-behavior: smooth;
+                                
+                            }
+                            
+                            .gif{
+                                position: absolute;
+                                width: 100%;
+                                height: 90px;
+                                z-index: 4;
+                                box-shadow: 0px -10px 25px 3px rgb(0, 0, 0);
+                                 background-image:  var(--gradianteAmarilloNaranja);
+                            }
+                            body{
+                                        
+                                z-index: 1;
+                                background-color:#00000000
+                            }
+                            .titulo{
+                                    color: var(--colorClaro);
+                                position: absolute;
+                                left: 21.5%;
+                                top: 30px;
+                                font-size: 6px;
+                                z-index: 4;
+                                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                letter-spacing: 0px;
+                                transition: 0.5s ease-in-out;
+                            }
+                            
+                            
+                            .foto img{
+                                position: absolute;
+                                width: 80px;
+                                border-radius: 100%;
+                                top: 110px;
+                                left: 40%;
+                                z-index: 1;
+                                transition: 0.5s ease-in-out;
+                            }
+                            .foto img:hover{
+                                transition: 0.5s ease-in-out;
+                                transform: scale(1.05); 
+                            }
+                            .vacio1{
+                                position: fixed;
+                                backdrop-filter: blur(10px);
+                                background-color: rgba(202, 202, 202, 0);
+                                height: 25px;
+                                width: 100%;
+                                z-index: 3;
+                                box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.19) ;
+                                    /* /////////////////////////////////////////////////////////////////////// */
+                            }
+                            
+                                /* //////////////////////////////////////////////////////////////////////////// */
+                            
+                               .slider{
+                                left: 43%;
+                                top: 12px;
+                                position: absolute;
+                                width: 90px;
+                                height: 15px;
+                                margin: 40px auto 0;
+                                overflow: hidden;
+                                z-index: 4;
+                               }
+                            
+                               .slider ul{
+                                padding: 0;
+                                width: 80%;
+                                animation: Slid 5s infinite  ease-out;
+                               }
+                            
+                               .slider li{
+                                color: var(--colorVerde);
+                                text-align: center;
+                                list-style: none;
+                                width: 100%;
+                                top: 4px;
+                                position: relative;
+                                left: -0px;
+                               }
+                            
+                               .slider a {
+                                
+                                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                
+                                font-weight: 60;
+                                font-size: 10px;
+                               }
+                            
+                               .Gamer{
+                                position: absolute;
+                                left: 90px;   
+                               }
+                            
+                               @keyframes Slid {
+                                0% {margin-top: -8%;}
+                                20% {margin-top: -8%;}
+                            
+                                25% {margin-top: -28.2%;}
+                                45% {margin-top: -28.2%;}
+                            
+                                50% {margin-top: -48.4%;}
+                                70% {margin-top: -48.4%;}
+                            
+                                75% {margin-top: -68.5%;}
+                                95% {margin-top: -68.5%;}
+                               }
+                                /* ////////////////////////////////////////////////////////// */
+                                
+                                   
+                                .icono1 img{
+                                position: fixed;
+                                width: 12px;
+                                top: 8px;
+                                left: 12.7%;
+                                z-index:4;
+                                
+                                transition: 0.5s ease;
+                                filter: var(--filtroAmarillo);
+                                   
+                                }
+                            
+                                .icono1 img:hover{
+                                transition: 0.5s ease;
+                                transform: scale(1.15);
+                                filter: var(--filtroNaranja);
+                                }
+                                .icono2 img{
+                                filter: var(--filtroAmarillo);
+                                position: fixed;
+                                width: 14px; /*este va menos 10px que icono3 */
+                                top: 8px;
+                                left: 68.4%;
+                                z-index:4;
+                                margin-left: 30px;
+                                transition: 0.5s ease;
+                                }
+                                .icono2 img:hover{
+                                transform: scale(1.15);
+                                transition: 0.5s ease;
+                                filter: var(--filtroNaranja);
+                                }
+                                
+                                .icono3 img{
+                                filter: var(--filtroAmarillo);
+                                position: fixed;
+                                width: 10px;
+                                top: 11px;
+                                left: 75.4%;
+                                z-index:4;
+                                margin-left: 25px;
+                                transition: 0.5s ease;
+                                }
+                                .icono3 img:hover{
+                                transform: scale(1.15);
+                                transition: 0.5s ease;
+                                filter: var(--filtroNaranja);
+                                }
+                            
+                                .icono4 img{
+                                filter: var(--filtroAmarillo);
+                                position: fixed;
+                                width: 15px;
+                                top: 8px;
+                                left: 91.8%;
+                                z-index:4;
+                                margin-left: -10px;
+                                transition: 0.5s ease;
+                                }
+                                .icono4 img:hover{
+                                transform: scale(1.15);
+                                transition: 0.5s ease;
+                                filter: var(--filtroNaranja);
+                                }
+                            
+                                .icono5 img{
+                                filter: var(--filtroAmarillo);
+                                position: fixed;
+                                width: 13px;
+                                top: 9px;
+                                margin-left: 0px;
+                                z-index:4;
+                                left: 94.5%;
+                                transition:  0.5s ease;
+                                }
+                                .icono5 img:hover{
+                                transform: scale(1.15);
+                                transition: 0.5s ease;
+                                filter: var(--filtroNaranja);
+                                }
+                            
+                                .descripcion{
+                                position: relative;
+                                top: 135px;
+                                width: 200px;
+                                height: 70px;
+                                text-align: center;
+                                left: 20%;
+                                color: var(--colorOscuro);
+                                font-size: 10px;
+                                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                font-weight: 500;
+                                }
+                                
+                                    .linea{
+                                    position: relative;
+                                    background-color: var(--colorVerde);
+                                    border-radius: 10px;
+                                    left: 15%;
+                                    width: 5px;
+                                    display: inline-block;
+                                    top: 58px;
+                                    margin-left:  0px;
+                                    height: 70px;
+                                    }
+                                
+                                .especialidades{
+                                color: var(--colorVerde);
+                                font-size: 10px;
+                                position: absolute;
+                                top: 100.2vh;
+                                left: 28.6%;
+                                z-index: 2;
+                                transition: .5s ease-in-out;
+                                }
+                                .especialidades:hover{
+                                    transition: .5s ease-in-out;
+                                    color: var(--colorOscuro);
+                                }
+                            
+                                .contenedor-Especies {
+                                    position:absolute;
+                                    height: 6%;
+                                    width: 80%;
+                                    top: 110vh;
+                        
+                                    }
+                                    
+                                    .contenedor-Especies ul li {
+                                    display: inline;
+                                    position: relative;
+                                    background-color: #FFF8F0;
+                                    margin: 40%;
+                                    margin-right: -20px;
+                                    left: -26%;
+                                
+                                    
+                                            
+                                    }
+                                
+                                    .especies1 img{
+                                    position: absolute;
+                                    top: 0;
+                                    width: 30px;
+                                    height: 30px;
+                                    }
+                                
+                                    .especies2 img{
+                                    position: absolute;
+                                    left: -5px;
+                                    top: 0;
+                                    width: 30px;
+                                    height: 30px;       
+                                    }
+                                
+                                    .especies3 img{
+                                    position: absolute;
+                                    top: 0;
+                                    left: -5px;
+                                    width: 30px;
+                                    height: 30px;          
+                                    }
+                                    
+                                    
+                                    
+                                    .nombresEspecies{
+                                        position: absolute;
+                                        width: 80%;
+                                        top: 129%;
+                                        
+                                    }
+                                    .nombresEspecies li {
+                                    font-size: 60px;
+                                    left: 14px;
+                                    display:inline-block;
+                                    position: relative;
+                                    
+                                    margin-left: 45px;
+                                    margin-right: 19px;
+                                    }
+                                   .nombresEspecies a{
+                                    text-decoration: none;
+                                    font-weight: 700;
+                                    color: var(--colorOscuro);
+                                    font-size: 7px;
+                                    font-family: var(--tipoGrafia);
+                                    transition: .5s ease-in-out;
+                                   }
+                        
+                                   .copy{
+                                    position: absolute;
+                                    
+                                    
+                                    top: 109px;
+                                    font-size: 5px;
+                                    font-family: var(--tipoGrafia);
+                                    font-weight: 600;
+                                }
+                                .cuadroCopy{
+                                    
+                                    width: 50px;
+                                    height: 130px;
+                                    left: 45%;
+                                    position: absolute;
+                                    top: 175vh;
+                                }
+                        }
